@@ -1,0 +1,32 @@
+!SESSION 2025-09-23 15:49:10.218 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-23 15:49:42.200
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-23 15:49:42.201
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-23 15:49:45.978
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-23 15:50:39.369 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring -data /Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-23 15:50:43.305
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-23 15:50:50.616
+!MESSAGE Started RMI Server, listening on port 41339
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-23 15:55:20.463
+!MESSAGE Indexed 'STM32F4xx_DriverDev' (3 sources, 53 headers) in 1.07 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
