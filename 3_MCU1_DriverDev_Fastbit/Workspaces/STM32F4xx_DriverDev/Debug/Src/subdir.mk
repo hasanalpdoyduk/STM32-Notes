@@ -5,13 +5,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Src/002led_button.c 
+../Src/007spi_txonly_arduino.c 
 
 OBJS += \
-./Src/002led_button.o 
+./Src/007spi_txonly_arduino.o 
 
 C_DEPS += \
-./Src/002led_button.d 
+./Src/007spi_txonly_arduino.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +21,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/002led_button.cyclo ./Src/002led_button.d ./Src/002led_button.o ./Src/002led_button.su
+	-$(RM) ./Src/007spi_txonly_arduino.cyclo ./Src/007spi_txonly_arduino.d ./Src/007spi_txonly_arduino.o ./Src/007spi_txonly_arduino.su
 
 .PHONY: clean-Src
 

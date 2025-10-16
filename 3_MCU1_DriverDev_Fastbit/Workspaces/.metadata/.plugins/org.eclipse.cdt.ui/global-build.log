@@ -1,66 +1,26 @@
-13:41:42 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
-make -j11 all 
-arm-none-eabi-gcc "../Src/001led_toggle.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/001led_toggle.d" -MT"Src/001led_toggle.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/001led_toggle.o"
-arm-none-eabi-gcc -o "STM32F4xx_DriverDev.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F4xx_DriverDev.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM32F4xx_DriverDev.elf
- 
-arm-none-eabi-size  STM32F4xx_DriverDev.elf 
-arm-none-eabi-objdump -h -S STM32F4xx_DriverDev.elf  > "STM32F4xx_DriverDev.list"
-   text	   data	    bss	    dec	    hex	filename
-   1892	      0	   1568	   3460	    d84	STM32F4xx_DriverDev.elf
-Finished building: default.size.stdout
- 
-Finished building: STM32F4xx_DriverDev.list
- 
-13:44:31 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
-make -j11 all 
-arm-none-eabi-size  STM32F4xx_DriverDev.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1892	      0	   1568	   3460	    d84	STM32F4xx_DriverDev.elf
-Finished building: default.size.stdout
- 
-13:45:15 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
-make -j11 all 
-arm-none-eabi-size  STM32F4xx_DriverDev.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1892	      0	   1568	   3460	    d84	STM32F4xx_DriverDev.elf
-Finished building: default.size.stdout
- 
-13:47:34 **** Building Selected Files of configuration Debug for project STM32F4xx_DriverDev ****
-Info: Internal Builder is used for build
-arm-none-eabi-gcc ../Src/002led_button.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/002led_button.o 
-13:47:46 **** Cleaning Selected Files of configuration Debug for project STM32F4xx_DriverDev ****
-Info: Internal Builder is used for build
-Nothing to clean.
-13:48:14 **** Clean-only build of configuration Debug for project STM32F4xx_DriverDev ****
+15:46:48 **** Clean-only build of configuration Debug for project STM32F4xx_DriverDev ****
 make -j11 clean 
 rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o ./Startup/syscalls.cyclo ./Startup/syscalls.d ./Startup/syscalls.o ./Startup/syscalls.su ./Startup/sysmem.cyclo ./Startup/sysmem.d ./Startup/sysmem.o ./Startup/sysmem.su
-rm -rf ./Src/001led_toggle.cyclo ./Src/001led_toggle.d ./Src/001led_toggle.o ./Src/001led_toggle.su
-rm -rf ./Driver/Src/stm32f407xx_gpio_driver.cyclo ./Driver/Src/stm32f407xx_gpio_driver.d ./Driver/Src/stm32f407xx_gpio_driver.o ./Driver/Src/stm32f407xx_gpio_driver.su
+rm -rf ./Src/006spi_tx_testing.cyclo ./Src/006spi_tx_testing.d ./Src/006spi_tx_testing.o ./Src/006spi_tx_testing.su
+rm -rf ./Driver/Src/stm32f407xx_gpio_driver.cyclo ./Driver/Src/stm32f407xx_gpio_driver.d ./Driver/Src/stm32f407xx_gpio_driver.o ./Driver/Src/stm32f407xx_gpio_driver.su ./Driver/Src/stm32f407xx_spi_driver.cyclo ./Driver/Src/stm32f407xx_spi_driver.d ./Driver/Src/stm32f407xx_spi_driver.o ./Driver/Src/stm32f407xx_spi_driver.su
 rm -rf STM32F4xx_DriverDev.elf STM32F4xx_DriverDev.list STM32F4xx_DriverDev.map default.size.stdout
  
-13:48:14 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
+15:46:49 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
 make -j11 all 
 arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
 arm-none-eabi-gcc "../Startup/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Startup/syscalls.d" -MT"Startup/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/syscalls.o"
 arm-none-eabi-gcc "../Startup/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Startup/sysmem.d" -MT"Startup/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/sysmem.o"
-arm-none-eabi-gcc "../Src/002led_button.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/002led_button.d" -MT"Src/002led_button.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/002led_button.o"
+arm-none-eabi-gcc "../Src/007spi_txonly_arduino.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/007spi_txonly_arduino.d" -MT"Src/007spi_txonly_arduino.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/007spi_txonly_arduino.o"
 arm-none-eabi-gcc "../Driver/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/stm32f407xx_gpio_driver.d" -MT"Driver/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../Driver/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Driver/Src/stm32f407xx_spi_driver.d" -MT"Driver/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Driver/Src/stm32f407xx_spi_driver.o"
 arm-none-eabi-gcc -o "STM32F4xx_DriverDev.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/macbookpro/STM32Projects/STM32-Notes/3_MCU1_DriverDev_Fastbit/Workspaces/STM32F4xx_DriverDev/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F4xx_DriverDev.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: STM32F4xx_DriverDev.elf
  
 arm-none-eabi-size  STM32F4xx_DriverDev.elf 
 arm-none-eabi-objdump -h -S STM32F4xx_DriverDev.elf  > "STM32F4xx_DriverDev.list"
    text	   data	    bss	    dec	    hex	filename
-   1940	      0	   1568	   3508	    db4	STM32F4xx_DriverDev.elf
+   2968	      0	   1568	   4536	   11b8	STM32F4xx_DriverDev.elf
 Finished building: default.size.stdout
  
 Finished building: STM32F4xx_DriverDev.list
- 
-13:49:00 **** Incremental Build of configuration Debug for project STM32F4xx_DriverDev ****
-make -j11 all 
-arm-none-eabi-size  STM32F4xx_DriverDev.elf 
-   text	   data	    bss	    dec	    hex	filename
-   1940	      0	   1568	   3508	    db4	STM32F4xx_DriverDev.elf
-Finished building: default.size.stdout
  
