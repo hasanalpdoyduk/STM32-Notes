@@ -1,0 +1,13 @@
+/*
+ * stm32f407xx_i2c_driver.h
+ *
+ *  Created on: Oct 17, 2025
+ *      Author: macbookpro
+ */
+
+#ifndef INC_STM32F407XX_I2C_DRIVER_H_
+#define INC_STM32F407XX_I2C_DRIVER_H_
+
+
+
+#endif /* INC_STM32F407XX_I2C_DRIVER_H_ */
