@@ -96,3 +96,50 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-28 18:36:04.628
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-10-29 13:47:18.599 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-29 13:47:25.229
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-29 13:47:30.964
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-29 13:48:33.538
+!MESSAGE Indexed 'UART2_Example' (22 sources, 104 headers) in 3.16 sec: 8,615 declarations; 33,814 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-29 13:48:35.502
+!MESSAGE Indexed 'UART2_Example_IT' (22 sources, 103 headers) in 1.96 sec: 8,482 declarations; 33,727 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.35%)
+!SESSION 2025-10-30 16:55:34.566 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-30 16:55:41.527
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-30 16:55:46.201
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-30 16:57:30.161
+!MESSAGE Indexed 'HSE_SYSCLK_8Mhz' (22 sources, 104 headers) in 3.56 sec: 8,607 declarations; 33,897 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-30 16:57:32.045
+!MESSAGE Indexed 'PLL_SYSCLK' (22 sources, 104 headers) in 1.88 sec: 8,612 declarations; 33,990 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-30 16:57:33.552
+!MESSAGE Indexed 'UART2_Example' (22 sources, 104 headers) in 1.5 sec: 8,615 declarations; 33,814 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-30 16:57:35.075
+!MESSAGE Indexed 'UART2_Example_IT' (22 sources, 103 headers) in 1.52 sec: 8,482 declarations; 33,727 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-30 16:57:36.584
+!MESSAGE Indexed 'PLL_SYSCLK_HSE' (22 sources, 104 headers) in 1.51 sec: 8,614 declarations; 34,112 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.34%)
