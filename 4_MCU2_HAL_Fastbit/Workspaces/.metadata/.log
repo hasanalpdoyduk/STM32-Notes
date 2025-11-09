@@ -175,3 +175,51 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-11-05 11:44:17.780
 !MESSAGE Indexed 'time_base_10micro' (21 sources, 98 headers) in 2.42 sec: 8,492 declarations; 44,093 references; 6 unresolved inclusions; 319 syntax errors; 1,291 unresolved names (2.4%)
+!SESSION 2025-11-09 10:11:21.610 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-09 10:11:34.577
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-09 10:11:41.544
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-09 10:13:00.397
+!MESSAGE Indexed 'timer_IC_1' (22 sources, 102 headers) in 4.44 sec: 9,202 declarations; 49,066 references; 6 unresolved inclusions; 330 syntax errors; 1,413 unresolved names (2.4%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-11-09 10:13:01.538
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+org.eclipse.cdt.core.parser.ParseError
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:777)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:292)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:331)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.lookaheadToken(AbstractGNUSourceCodeParser.java:341)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LA(AbstractGNUSourceCodeParser.java:364)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.LT(AbstractGNUSourceCodeParser.java:493)
+	at org.eclipse.cdt.internal.core.dom.parser.c.GNUCSourceParser.parseIfStatement(GNUCSourceParser.java:2087)
+	at org.eclipse.cdt.internal.core.dom.parser.c.GNUCSourceParser.statement(GNUCSourceParser.java:1892)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.compoundStatement(AbstractGNUSourceCodeParser.java:899)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.functionBody(AbstractGNUSourceCodeParser.java:1538)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.handleFunctionBody(AbstractGNUSourceCodeParser.java:1527)
+	at org.eclipse.cdt.internal.core.dom.parser.c.GNUCSourceParser.functionDefinition(GNUCSourceParser.java:437)
+	at org.eclipse.cdt.internal.core.dom.parser.c.GNUCSourceParser.simpleDeclaration(GNUCSourceParser.java:371)
+	at org.eclipse.cdt.internal.core.dom.parser.c.GNUCSourceParser.declaration(GNUCSourceParser.java:305)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1429)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1368)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1363)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:688)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:171)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:1244)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1102)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
