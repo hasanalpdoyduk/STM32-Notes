@@ -223,3 +223,25 @@ org.eclipse.cdt.core.parser.ParseError
 	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
 	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-12-16 18:30:25.081 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-16 18:30:35.455
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 18:30:42.245
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 18:32:03.965
+!MESSAGE Indexed 'timer_OC_1' (22 sources, 103 headers) in 4.12 sec: 9,193 declarations; 48,975 references; 6 unresolved inclusions; 330 syntax errors; 1,409 unresolved names (2.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 16:58:01.045
+!MESSAGE Indexed 'timer_OC_PWM_1' (22 sources, 104 headers) in 3.23 sec: 9,313 declarations; 50,570 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-17 16:58:02.784
+!MESSAGE Indexed 'timer_PWM_LED' (22 sources, 104 headers) in 1.74 sec: 9,313 declarations; 50,501 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.25%)
