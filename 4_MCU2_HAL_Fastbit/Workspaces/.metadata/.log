@@ -245,3 +245,19 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-17 16:58:02.784
 !MESSAGE Indexed 'timer_PWM_LED' (22 sources, 104 headers) in 1.74 sec: 9,313 declarations; 50,501 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.25%)
+!SESSION 2025-12-24 22:21:04.382 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-24 22:21:13.372
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-24 22:21:23.319
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 22:22:02.184
+!MESSAGE Indexed 'CAN_LoopBack' (23 sources, 124 headers) in 4.54 sec: 12,576 declarations; 48,310 references; 5 unresolved inclusions; 1,120 syntax errors; 1,352 unresolved names (2.2%)
