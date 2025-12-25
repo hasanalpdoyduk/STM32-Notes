@@ -277,3 +277,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-25 22:34:34.404
 !MESSAGE Indexed 'CAN_LoopBack_IT' (23 sources, 103 headers) in 3.11 sec: 8,791 declarations; 34,609 references; 6 unresolved inclusions; 318 syntax errors; 1,268 unresolved names (2.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-26 00:03:25.676
+!MESSAGE Indexed 'CAN_Normal_Mode_2Nodes' (23 sources, 103 headers) in 2.24 sec: 9,496 declarations; 51,085 references; 6 unresolved inclusions; 345 syntax errors; 1,494 unresolved names (2.4%)
