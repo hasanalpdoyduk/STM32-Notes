@@ -302,3 +302,31 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-26 16:49:10.086
 !MESSAGE Indexed 'WFE_button' (23 sources, 103 headers) in 2.74 sec: 9,187 declarations; 50,460 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.25%)
+!SESSION 2025-12-27 15:07:13.542 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-27 15:07:31.912
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-27 15:07:42.691
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 15:08:14.119
+!MESSAGE Indexed 'Current_Measurement_Sleep_Mode' (48 sources, 104 headers) in 5.38 sec: 8,555 declarations; 33,123 references; 2 unresolved inclusions; 18 syntax errors; 1,298 unresolved names (3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 15:08:15.972
+!MESSAGE Indexed 'Current_Measurement_Run_Mode' (54 sources, 107 headers) in 1.85 sec: 9,415 declarations; 37,960 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 15:08:18.478
+!MESSAGE Indexed 'Current_Measurement_Stop_Mode' (48 sources, 105 headers) in 1.27 sec: 8,940 declarations; 34,432 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 15:08:21.265
+!MESSAGE Indexed 'Current_Measurement_Standby_Mode' (48 sources, 105 headers) in 2.78 sec: 8,932 declarations; 34,487 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 16:08:42.790
+!MESSAGE Indexed 'BkupSRAM_Standby' (22 sources, 103 headers) in 2.75 sec: 8,487 declarations; 32,736 references; 6 unresolved inclusions; 303 syntax errors; 1,190 unresolved names (2.8%)
