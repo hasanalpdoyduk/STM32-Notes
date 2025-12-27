@@ -330,3 +330,28 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-27 16:08:42.790
 !MESSAGE Indexed 'BkupSRAM_Standby' (22 sources, 103 headers) in 2.75 sec: 8,487 declarations; 32,736 references; 6 unresolved inclusions; 303 syntax errors; 1,190 unresolved names (2.8%)
+!SESSION 2025-12-27 17:55:57.701 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-27 17:56:05.767
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-27 17:56:13.926
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 17:57:10.910
+!MESSAGE Indexed 'RTC_Date_Time' (24 sources, 105 headers) in 4.82 sec: 8,933 declarations; 36,961 references; 6 unresolved inclusions; 311 syntax errors; 1,267 unresolved names (2.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 18:46:48.581
+!MESSAGE Indexed 'RTC_Alarm_standby_wakeup' (24 sources, 105 headers) in 4.99 sec: 8,944 declarations; 37,146 references; 6 unresolved inclusions; 311 syntax errors; 1,267 unresolved names (2.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 18:46:51.074
+!MESSAGE Indexed 'RTC_AlarmA' (24 sources, 107 headers) in 2.48 sec: 9,087 declarations; 38,588 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 18:46:54.088
+!MESSAGE Indexed 'RTC_AlarmA_12h' (24 sources, 107 headers) in 1.61 sec: 9,090 declarations; 38,612 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.31%)
