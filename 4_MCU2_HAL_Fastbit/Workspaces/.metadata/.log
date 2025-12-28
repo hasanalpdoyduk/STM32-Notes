@@ -355,3 +355,22 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbo
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-12-27 18:46:54.088
 !MESSAGE Indexed 'RTC_AlarmA_12h' (24 sources, 107 headers) in 1.61 sec: 9,090 declarations; 38,612 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.31%)
+!SESSION 2025-12-28 19:33:27.577 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-28 19:33:34.534
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/4_MCU2_HAL_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-28 19:33:41.720
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-28 19:34:35.809
+!MESSAGE Indexed '001_LED_Blinker_Interrupt' (21 sources, 109 headers) in 3.92 sec: 10,352 declarations; 58,274 references; 6 unresolved inclusions; 893 syntax errors; 1,345 unresolved names (1.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-28 19:34:37.465
+!MESSAGE Indexed '001_LED_Blinker' (19 sources, 107 headers) in 1.65 sec: 8,564 declarations; 38,475 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.31%)
