@@ -1,0 +1,25 @@
+!SESSION 2026-01-02 16:27:13.450 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=tr_TR
+Framework arguments:  -keyring /Users/macbookpro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/macbookpro/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-02 16:27:34.642
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-02 16:27:34.643
+!MESSAGE Log4j2 initialized with config file /Users/macbookpro/STM32Projects/STM32-Notes/5_MCU3_Graphics_Fastbit/Workspaces/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-02 16:27:38.115
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-02 16:31:36.495
+!MESSAGE Indexed 'F746x_Roaring_tiger_demo' (28 sources, 103 headers) in 7.52 sec: 9,138 declarations; 42,270 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-02 16:31:39.600
+!MESSAGE Indexed 'F407x_Roaring_tiger_demo' (28 sources, 108 headers) in 3.08 sec: 8,658 declarations; 31,678 references; 2 unresolved inclusions; 42 syntax errors; 367 unresolved names (0.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-02 16:31:42.366
+!MESSAGE Indexed 'F429x_Roaring_tiger_demo' (29 sources, 110 headers) in 2.76 sec: 8,912 declarations; 35,426 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.33%)
